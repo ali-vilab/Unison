@@ -1,0 +1,10 @@
+model_name_or_path: /Path/Qwen2.5-VL-3B-Instruct
+adapter_name_or_path: /Path/LoRA
+template: qwen2_vl
+trust_remote_code: true
+add_special_tokens: "<CFI>,<CFV>,<BORES>,<EORES>,<BONF>,<EONF>,<BOFIDX>,<EOFIDX>,<REF>,<CTRL>,<BOEDIT>,<EOEDIT>,<IMGPAD>,<VIDPAD>"
+
+export_dir: /Path/merge
+export_size: 5
+export_device: cpu
+export_legacy_format: false
