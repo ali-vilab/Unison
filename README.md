@@ -27,7 +27,7 @@ You should download the Annotators by running:
 
 ## 💻 : Test
 
-You should first download the pre-trained models: the stage-one model [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) and the stage-two model [Wan2.1-VACE-1.3B](https://huggingface.co/Wan-AI/Wan2.1-VACE-1.3B). You also need to download the LoRA we trained to equip the stage-one model with planning capability, as well as the projector trained to align the two stages of models. Here is the [link](xxxx)。
+You should first download the pre-trained models: the stage-one model [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) and the stage-two model [Wan2.1-VACE-1.3B](https://huggingface.co/Wan-AI/Wan2.1-VACE-1.3B). You also need to download the LoRA we trained to equip the stage-one model with planning capability, as well as the projector trained to align the two stages of models. Here is the [link](https://huggingface.co/ali-vilab/Unison)。
 
 Next, you need to modify the `model_name_or_path`, `adapter_name_or_path` and `export_dir` in the `merge_lora.yaml` file to your own paths, and run the following command to merge the stage-one model and the LoRA:
 
