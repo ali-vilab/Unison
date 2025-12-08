@@ -12,6 +12,6 @@ PROMPT_TEXT="There are 100 books in a library. On Monday, 40 books are borrowed.
 CUDA_VISIBLE_DEVICES=0 python inference.py \
     --qwenvl_path "/Path/merge" \
     --vace_path "/Path/VACE-Wan2.1-1.3B-Preview" \
-    --proj_path "/Path/projector.pt" \
+    --proj_path "/Path/projector.pth" \
     --prompt "$PROMPT_TEXT" \
     --save_path "/Path/result.png"
