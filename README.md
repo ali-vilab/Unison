@@ -1,6 +1,6 @@
 # Unison: A Fully Automatic, Task-Universal, and Low-Cost Framework for Unified Understanding and Generation
 
-### [Project Page](https://ali-vilab.github.io/Unison-Page) | [Paper (ArXiv)](xxxx)
+### [Project Page](https://ali-vilab.github.io/Unison-Page) | [Paper (ArXiv)](https://arxiv.org/abs/2512.07747)
 
 ## Introduction
 Unison is a two-stage framework for unified understanding and generation tasks. Trained at minimal cost with only 500K samples and 50 GPU hours, Unison supports a wide range of understanding tasks across text, image, and video, as well as generation tasks including text-to-visual generation, editing, controllable generation, and IP-based reference generation, totaling 12 types of tasks. Notably, Unison can automatically parse user intention, identify task types, and extract necessary meta-information, enabling full automation of multimodal workflows without human intervention.
@@ -57,7 +57,7 @@ This work is based on [Qwen2.5-VL](https://github.com/QwenLM/Qwen3-VL), [VACE](h
 @article{zhao2025unison,
   title={Unison: A Fully Automatic, Task-Universal, and Low-Cost Framework for Unified Understanding and Generation},
   author={Shihao Zhao, Yitong Chen, Zeyinzi Jiang, Bojia Zi, Shaozhe Hao, Yu Liu, Chaojie Mao, Kwan-Yee~K.},
-  journal={xxxx},
+  journal={arXiv preprint arXiv:2512.07747},
   year={2025}
 }
 ```
