@@ -56,7 +56,7 @@ This work is based on [Qwen2.5-VL](https://github.com/QwenLM/Qwen3-VL), [VACE](h
 ```bibtex
 @article{zhao2025unison,
   title={Unison: A Fully Automatic, Task-Universal, and Low-Cost Framework for Unified Understanding and Generation},
-  author={Shihao Zhao, Yitong Chen, Zeyinzi Jiang, Bojia Zi, Shaozhe Hao, Yu Liu, Chaojie Mao, Kwan-Yee~K.},
+  author={Zhao, Shihao and Chen, Yitong and Jiang, Zeyinzi and Zi, Bojia and Hao, Shaozhe and Liu, Yu and Mao, Chaojie and Wong, Kwan-Yee K},
   journal={arXiv preprint arXiv:2512.07747},
   year={2025}
 }
